@@ -706,8 +706,7 @@ input, select, textarea {
 
 		.image.icon {
 			display: block;
-			text-align: center;
-			border-radius: 100%;
+			align-items: center;
 		}
 
 		@media screen and (max-width: 736px) {
