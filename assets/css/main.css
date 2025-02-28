@@ -647,7 +647,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(224, 122, 32, 0.5);
+			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -709,13 +709,13 @@ input, select, textarea {
 			justify-content: center;     /* Horizontální zarovnání na střed */
 			align-items: center;         /* Vertikální zarovnání na střed */
 			height: 100%;                /* Pokud potřebujete, aby kontejner měl určitou výšku */
-			background-color: #d48806;			  /* Transparentní pozadí */
+			background-color: transparent;			  /* Transparentní pozadí */
 		}
 			
 			.image.icon img {
 				max-width: 100%;   /* Ujistíme se, že obrázek nepřesáhne šířku kontejneru */
 				max-height: 100%;  /* Ujistíme se, že obrázek nepřesáhne výšku kontejneru */
-
+				background-color: transparent;			  /* Transparentní pozadí */
 			}
 
 		@media screen and (max-width: 736px) {
