@@ -706,16 +706,14 @@ input, select, textarea {
 
 		.image.icon {
 			display: flex;               /* Zapneme Flexbox */
-			justify-content: center;     /* Horizontální zarovnání na střed */
-			align-items: center;         /* Vertikální zarovnání na střed */
+			/*justify-content: center;     /* Horizontální zarovnání na střed */
+			/*align-items: center;         /* Vertikální zarovnání na střed */
 			height: 100%;                /* Pokud potřebujete, aby kontejner měl určitou výšku */
-			background-color: transparent;			  /* Transparentní pozadí */
 		}
 			
 			.image.icon img {
 				max-width: 100%;   /* Ujistíme se, že obrázek nepřesáhne šířku kontejneru */
 				max-height: 100%;  /* Ujistíme se, že obrázek nepřesáhne výšku kontejneru */
-				background-color: transparent;			  /* Transparentní pozadí */
 			}
 
 		@media screen and (max-width: 736px) {
