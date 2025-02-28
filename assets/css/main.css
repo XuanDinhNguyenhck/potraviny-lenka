@@ -709,6 +709,7 @@ input, select, textarea {
 			justify-content: center;     /* Horizontální zarovnání na střed */
 			align-items: center;         /* Vertikální zarovnání na střed */
 			height: 100%;                /* Pokud potřebujete, aby kontejner měl určitou výšku */
+			background: none;			  /* Transparentní pozadí */
 		}
 			
 			.image.icon img {
