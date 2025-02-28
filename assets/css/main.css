@@ -1303,7 +1303,7 @@ input, select, textarea {
 			}
 
 			#header .icon {
-				object-fit: cover !important;
+				object-fit: contain !important;
 			}
 
 		#header .content {
@@ -1452,6 +1452,10 @@ input, select, textarea {
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
+				}
+
+				#header .icon {
+					object-fit: contain !important;
 				}
 
 			#header .content .inner {
