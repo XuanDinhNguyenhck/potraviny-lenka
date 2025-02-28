@@ -705,12 +705,15 @@ input, select, textarea {
 			}
 
 		.image.icon {
-			display: block;
-			align-items: center;
+			display: flex;               /* Zapneme Flexbox */
+			justify-content: center;     /* Horizontální zarovnání na střed */
+			align-items: center;         /* Vertikální zarovnání na střed */
+			height: 100%;                /* Pokud potřebujete, aby kontejner měl určitou výšku */
 		}
-
+			
 			.image.icon img {
-				width: 100%;
+				max-width: 100%;   /* Ujistíme se, že obrázek nepřesáhne šířku kontejneru */
+				max-height: 100%;  /* Ujistíme se, že obrázek nepřesáhne výšku kontejneru */
 			}
 
 		@media screen and (max-width: 736px) {
