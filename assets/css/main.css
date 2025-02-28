@@ -1303,6 +1303,9 @@ input, select, textarea {
 			}
 
 			#header .icon {
+				width: 50px !important;
+				height: 50px !important;
+				border-radius: 50% !important;
 				object-fit: cover !important;
 			}
 
@@ -1452,10 +1455,6 @@ input, select, textarea {
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
-				}
-
-				#header .icon {
-					object-fit: cover !important;
 				}
 
 			#header .content .inner {
