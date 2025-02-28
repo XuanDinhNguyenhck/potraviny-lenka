@@ -1728,3 +1728,10 @@ input, select, textarea {
         font-weight: bold;
         color: #fff;
     }
+
+	.icon {
+		width: 50px;  /* Změna velikosti obrázku */
+		height: 50px; /* Změna velikosti obrázku */
+		border-radius: 50%; /* Zaoblení obrázku, aby vypadal jako ikona */
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Jemný stín kolem obrázku */
+	}
