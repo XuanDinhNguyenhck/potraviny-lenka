@@ -1291,9 +1291,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 10rem;
-			height: 10rem;
-			line-height: 10rem;
+			width: 5.5rem;
+			height: 5.5rem;
+			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1303,7 +1303,7 @@ input, select, textarea {
 			}
 
 			#header .icon {
-				object-fit: contain !important;
+				object-fit: cover !important;
 			}
 
 		#header .content {
@@ -1455,7 +1455,7 @@ input, select, textarea {
 				}
 
 				#header .icon {
-					object-fit: contain !important;
+					object-fit: cover !important;
 				}
 
 			#header .content .inner {
