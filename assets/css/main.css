@@ -1705,25 +1705,26 @@ input, select, textarea {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         margin-top: 40px;
         text-align: center;
+		color: #fff;
     }
 
     #hours h2 {
         font-size: 2rem;
-        color: #333;
+        color: #fff;
         margin-bottom: 15px;
     }
 
     .hours-container p {
         font-size: 1.1rem;
         margin: 10px 0;
-        color: #555;
+        color: #fff;
     }
 
     .hours-container p strong {
-        color: #0077b6;
+        color: #fff;
     }
 
     .hours-time {
         font-weight: bold;
-        color: #2a9d8f;
+        color: #fff;
     }
