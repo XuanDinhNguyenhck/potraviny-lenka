@@ -705,7 +705,7 @@ input, select, textarea {
 			}
 
 		.image.icon {
-			display: inline-block;
+			display: block;
 			width: 4rem;
 			height: 4rem;
 			line-height: 4rem;
@@ -728,7 +728,7 @@ input, select, textarea {
 			}
 
 		}
-		
+
 /* List */
 
 	ol {
