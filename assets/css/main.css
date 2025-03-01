@@ -1469,6 +1469,28 @@ input, select, textarea {
 					height: calc(2rem + 1px);
 				}
 
+				#header .content::before {
+					content: '';
+					display: block;
+					position: absolute;
+					top: calc(-2rem - 1px);
+					left: calc(50% - 1px);
+					width: 1px;
+					height: calc(2rem + 1px);
+					background: #ffffff; /* Barva svislé čáry */
+				}
+		
+				#header .menu::before {
+					content: '';
+					display: block;
+					position: absolute;
+					top: calc(-2rem - 1px);
+					left: calc(50% - 1px);
+					width: 1px;
+					height: calc(2rem + 1px);
+					background: #ffffff; /* Barva svislé čáry */
+				}
+
 			#header .logo {
 				width: 4.75rem;
 				height: 4.75rem;
