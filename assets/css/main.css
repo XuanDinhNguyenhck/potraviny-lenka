@@ -1695,7 +1695,6 @@ input, select, textarea {
 	    background-color: #fffae6; /* Light yellow background */
 	    border: 2px solid #ffcc00; /* Yellow border */
 	    padding: 20px;
-	    margin: 20px auto;
 	    text-align: center;
 	    border-radius: 10px; /* Rounded corners */
 	    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
